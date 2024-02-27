@@ -33,7 +33,7 @@ const App = () => {
       <Hero handleOrderPopup={handleOrderPopup} />
       <Products />
       <TopProducts handleOrderPopup={handleOrderPopup} />
-      <Banner />
+      
       <Subscribe />
       <Products />
       <Testimonials />
