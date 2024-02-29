@@ -1,14 +1,14 @@
 import React from "react";
-import Img1 from "../assets/women/women.png";
-import Img2 from "../assets/women/women2.jpg";
-import Img3 from "../assets/women/women3.jpg";
-import Img4 from "../assets/women/women4.jpg";
+import firstImage from "../assets/first.png";
+import secondImage from "../assets/second.jpg";
+import thirdImage from "../assets/third.jpg";
+import fourImage from "../assets/four.jpg";
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
   {
     id: 1,
-    img: Img1,
+    img: firstImage,
     title: "Women Ethnic",
     rating: 5.0,
     color: "white",
@@ -16,7 +16,7 @@ const ProductsData = [
   },
   {
     id: 2,
-    img: Img2,
+    img: secondImage,
     title: "Women western",
     rating: 4.5,
     color: "Red",
@@ -24,7 +24,7 @@ const ProductsData = [
   },
   {
     id: 3,
-    img: Img3,
+    img: thirdImage,
     title: "Goggles",
     rating: 4.7,
     color: "brown",
@@ -32,7 +32,7 @@ const ProductsData = [
   },
   {
     id: 4,
-    img: Img4,
+    img: fourImage,
     title: "Printed T-Shirt",
     rating: 4.4,
     color: "Yellow",
@@ -40,7 +40,7 @@ const ProductsData = [
   },
   {
     id: 5,
-    img: Img2,
+    img: secondImage,
     title: "Fashin T-Shirt",
     rating: 4.5,
     color: "Pink",

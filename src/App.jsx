@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Products from "./components/Products/Products";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Products from "./components/Products";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import TopProducts from "./components/TopProducts/TopProducts";
-import Banner from "./components/Banner/Banner";
-import Subscribe from "./components/Subscribe/Subscribe";
-import Testimonials from "./components/Testimonials/Testimonials";
-import Footer from "./components/Footer/Footer";
-import Popup from "./components/Popup/Popup";
+import TopProducts from "./components/TopProducts";
+import Banner from "./components/Banner";
+import Subscribe from "./components/Subscribe";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
+import Popup from "./components/Popup";
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -33,7 +33,7 @@ const App = () => {
       <Hero handleOrderPopup={handleOrderPopup} />
       <Products />
       <TopProducts handleOrderPopup={handleOrderPopup} />
-      
+      <Banner />
       <Subscribe />
       <Products />
       <Testimonials />

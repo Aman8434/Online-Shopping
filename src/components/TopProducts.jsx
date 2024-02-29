@@ -1,27 +1,27 @@
 import React from "react";
-import Img1 from "../assets/shirt/shirt.png";
-import Img2 from "../assets/shirt/shirt2.png";
-import Img3 from "../assets/shirt/shirt3.png";
+import shirtImage from '../assets/shirt.png';
+import shirt2Image from "../assets/shirt2.png";
+import shirt3Image from "../assets/shirt3.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
-    img: Img1,
+    img: shirtImage,
     title: "Casual Wear",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
-    img: Img2,
+    img: shirt2Image,
     title: "Printed shirt",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
-    img: Img3,
+    img: shirt3Image,
     title: "Women shirt",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
